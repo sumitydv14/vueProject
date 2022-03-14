@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.dropdown-menu.show{
+    left: -150px;
+    width: 225px;
+    padding: 25px 5px;
+ }
+
+.navbar .nav-item .dropdown{
+  list-style: none !important;
+}
